@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		73AEDFDC1D03A6DF004A52F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 73AEDFDB1D03A6DF004A52F2 /* main.m */; };
+		73AEDFDF1D03A6DF004A52F2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 73AEDFDE1D03A6DF004A52F2 /* AppDelegate.m */; };
+		73AEDFE71D03A6DF004A52F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73AEDFE61D03A6DF004A52F2 /* Assets.xcassets */; };
+		73AEDFEA1D03A6DF004A52F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73AEDFE81D03A6DF004A52F2 /* LaunchScreen.storyboard */; };
+		73AEDFF51D03A6DF004A52F2 /* SkipCenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73AEDFF41D03A6DF004A52F2 /* SkipCenterTests.m */; };
+		73AEE0001D03A6DF004A52F2 /* SkipCenterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73AEDFFF1D03A6DF004A52F2 /* SkipCenterUITests.m */; };
+		73AEE00F1D03A6F4004A52F2 /* SkipCenterTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 73AEE00E1D03A6F4004A52F2 /* SkipCenterTool.m */; };
+		73AEE0171D03A859004A52F2 /* CWListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73AEE0161D03A859004A52F2 /* CWListViewController.m */; };
+		73AEE01A1D03A9C2004A52F2 /* CWFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73AEE0191D03A9C2004A52F2 /* CWFirstViewController.m */; };
+		73AEE01D1D03A9CD004A52F2 /* CWSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73AEE01C1D03A9CD004A52F2 /* CWSecondViewController.m */; };
+		73AEE0201D03A9DB004A52F2 /* CWThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73AEE01F1D03A9DB004A52F2 /* CWThirdViewController.m */; };
+		73AEE0231D03A9E7004A52F2 /* CWFourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73AEE0221D03A9E7004A52F2 /* CWFourViewController.m */; };
+		73AEE0261D03ACB9004A52F2 /* CWSuperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73AEE0251D03ACB9004A52F2 /* CWSuperViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		73AEDFF11D03A6DF004A52F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 73AEDFCF1D03A6DF004A52F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73AEDFD61D03A6DF004A52F2;
+			remoteInfo = SkipCenter;
+		};
+		73AEDFFC1D03A6DF004A52F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 73AEDFCF1D03A6DF004A52F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73AEDFD61D03A6DF004A52F2;
+			remoteInfo = SkipCenter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		73AEDFD71D03A6DF004A52F2 /* SkipCenter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkipCenter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		73AEDFDB1D03A6DF004A52F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		73AEDFDD1D03A6DF004A52F2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		73AEDFDE1D03A6DF004A52F2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		73AEDFE61D03A6DF004A52F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		73AEDFE91D03A6DF004A52F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		73AEDFEB1D03A6DF004A52F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73AEDFF01D03A6DF004A52F2 /* SkipCenterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkipCenterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		73AEDFF41D03A6DF004A52F2 /* SkipCenterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SkipCenterTests.m; sourceTree = "<group>"; };
+		73AEDFF61D03A6DF004A52F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73AEDFFB1D03A6DF004A52F2 /* SkipCenterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkipCenterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		73AEDFFF1D03A6DF004A52F2 /* SkipCenterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SkipCenterUITests.m; sourceTree = "<group>"; };
+		73AEE0011D03A6DF004A52F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73AEE00D1D03A6F4004A52F2 /* SkipCenterTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SkipCenterTool.h; path = ../SkipCenterTool.h; sourceTree = "<group>"; };
+		73AEE00E1D03A6F4004A52F2 /* SkipCenterTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SkipCenterTool.m; path = ../SkipCenterTool.m; sourceTree = "<group>"; };
+		73AEE0151D03A859004A52F2 /* CWListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWListViewController.h; sourceTree = "<group>"; };
+		73AEE0161D03A859004A52F2 /* CWListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWListViewController.m; sourceTree = "<group>"; };
+		73AEE0181D03A9C2004A52F2 /* CWFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CWFirstViewController.h; path = ../CWFirstViewController.h; sourceTree = "<group>"; };
+		73AEE0191D03A9C2004A52F2 /* CWFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CWFirstViewController.m; path = ../CWFirstViewController.m; sourceTree = "<group>"; };
+		73AEE01B1D03A9CD004A52F2 /* CWSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CWSecondViewController.h; path = ../CWSecondViewController.h; sourceTree = "<group>"; };
+		73AEE01C1D03A9CD004A52F2 /* CWSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CWSecondViewController.m; path = ../CWSecondViewController.m; sourceTree = "<group>"; };
+		73AEE01E1D03A9DB004A52F2 /* CWThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CWThirdViewController.h; path = ../CWThirdViewController.h; sourceTree = "<group>"; };
+		73AEE01F1D03A9DB004A52F2 /* CWThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CWThirdViewController.m; path = ../CWThirdViewController.m; sourceTree = "<group>"; };
+		73AEE0211D03A9E7004A52F2 /* CWFourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CWFourViewController.h; path = ../CWFourViewController.h; sourceTree = "<group>"; };
+		73AEE0221D03A9E7004A52F2 /* CWFourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CWFourViewController.m; path = ../CWFourViewController.m; sourceTree = "<group>"; };
+		73AEE0241D03ACB9004A52F2 /* CWSuperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CWSuperViewController.h; path = ../CWSuperViewController.h; sourceTree = "<group>"; };
+		73AEE0251D03ACB9004A52F2 /* CWSuperViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CWSuperViewController.m; path = ../CWSuperViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		73AEDFD41D03A6DF004A52F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73AEDFED1D03A6DF004A52F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73AEDFF81D03A6DF004A52F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		73AEDFCE1D03A6DF004A52F2 = {
+			isa = PBXGroup;
+			children = (
+				73AEDFD91D03A6DF004A52F2 /* SkipCenter */,
+				73AEDFF31D03A6DF004A52F2 /* SkipCenterTests */,
+				73AEDFFE1D03A6DF004A52F2 /* SkipCenterUITests */,
+				73AEDFD81D03A6DF004A52F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		73AEDFD81D03A6DF004A52F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				73AEDFD71D03A6DF004A52F2 /* SkipCenter.app */,
+				73AEDFF01D03A6DF004A52F2 /* SkipCenterTests.xctest */,
+				73AEDFFB1D03A6DF004A52F2 /* SkipCenterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		73AEDFD91D03A6DF004A52F2 /* SkipCenter */ = {
+			isa = PBXGroup;
+			children = (
+				73AEE0271D03AE3B004A52F2 /* Example */,
+				73AEE0281D03AE3B004A52F2 /* Lib */,
+				73AEDFDD1D03A6DF004A52F2 /* AppDelegate.h */,
+				73AEDFDE1D03A6DF004A52F2 /* AppDelegate.m */,
+				73AEE0151D03A859004A52F2 /* CWListViewController.h */,
+				73AEE0161D03A859004A52F2 /* CWListViewController.m */,
+				73AEDFE61D03A6DF004A52F2 /* Assets.xcassets */,
+				73AEDFE81D03A6DF004A52F2 /* LaunchScreen.storyboard */,
+				73AEDFEB1D03A6DF004A52F2 /* Info.plist */,
+				73AEDFDA1D03A6DF004A52F2 /* Supporting Files */,
+			);
+			path = SkipCenter;
+			sourceTree = "<group>";
+		};
+		73AEDFDA1D03A6DF004A52F2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				73AEDFDB1D03A6DF004A52F2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		73AEDFF31D03A6DF004A52F2 /* SkipCenterTests */ = {
+			isa = PBXGroup;
+			children = (
+				73AEDFF41D03A6DF004A52F2 /* SkipCenterTests.m */,
+				73AEDFF61D03A6DF004A52F2 /* Info.plist */,
+			);
+			path = SkipCenterTests;
+			sourceTree = "<group>";
+		};
+		73AEDFFE1D03A6DF004A52F2 /* SkipCenterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				73AEDFFF1D03A6DF004A52F2 /* SkipCenterUITests.m */,
+				73AEE0011D03A6DF004A52F2 /* Info.plist */,
+			);
+			path = SkipCenterUITests;
+			sourceTree = "<group>";
+		};
+		73AEE0271D03AE3B004A52F2 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				73AEE0241D03ACB9004A52F2 /* CWSuperViewController.h */,
+				73AEE0251D03ACB9004A52F2 /* CWSuperViewController.m */,
+				73AEE0181D03A9C2004A52F2 /* CWFirstViewController.h */,
+				73AEE0191D03A9C2004A52F2 /* CWFirstViewController.m */,
+				73AEE01B1D03A9CD004A52F2 /* CWSecondViewController.h */,
+				73AEE01C1D03A9CD004A52F2 /* CWSecondViewController.m */,
+				73AEE01E1D03A9DB004A52F2 /* CWThirdViewController.h */,
+				73AEE01F1D03A9DB004A52F2 /* CWThirdViewController.m */,
+				73AEE0211D03A9E7004A52F2 /* CWFourViewController.h */,
+				73AEE0221D03A9E7004A52F2 /* CWFourViewController.m */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		73AEE0281D03AE3B004A52F2 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				73AEE00D1D03A6F4004A52F2 /* SkipCenterTool.h */,
+				73AEE00E1D03A6F4004A52F2 /* SkipCenterTool.m */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		73AEDFD61D03A6DF004A52F2 /* SkipCenter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73AEE0041D03A6DF004A52F2 /* Build configuration list for PBXNativeTarget "SkipCenter" */;
+			buildPhases = (
+				73AEDFD31D03A6DF004A52F2 /* Sources */,
+				73AEDFD41D03A6DF004A52F2 /* Frameworks */,
+				73AEDFD51D03A6DF004A52F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkipCenter;
+			productName = SkipCenter;
+			productReference = 73AEDFD71D03A6DF004A52F2 /* SkipCenter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		73AEDFEF1D03A6DF004A52F2 /* SkipCenterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73AEE0071D03A6DF004A52F2 /* Build configuration list for PBXNativeTarget "SkipCenterTests" */;
+			buildPhases = (
+				73AEDFEC1D03A6DF004A52F2 /* Sources */,
+				73AEDFED1D03A6DF004A52F2 /* Frameworks */,
+				73AEDFEE1D03A6DF004A52F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73AEDFF21D03A6DF004A52F2 /* PBXTargetDependency */,
+			);
+			name = SkipCenterTests;
+			productName = SkipCenterTests;
+			productReference = 73AEDFF01D03A6DF004A52F2 /* SkipCenterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		73AEDFFA1D03A6DF004A52F2 /* SkipCenterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73AEE00A1D03A6DF004A52F2 /* Build configuration list for PBXNativeTarget "SkipCenterUITests" */;
+			buildPhases = (
+				73AEDFF71D03A6DF004A52F2 /* Sources */,
+				73AEDFF81D03A6DF004A52F2 /* Frameworks */,
+				73AEDFF91D03A6DF004A52F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73AEDFFD1D03A6DF004A52F2 /* PBXTargetDependency */,
+			);
+			name = SkipCenterUITests;
+			productName = SkipCenterUITests;
+			productReference = 73AEDFFB1D03A6DF004A52F2 /* SkipCenterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		73AEDFCF1D03A6DF004A52F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "王聪";
+				TargetAttributes = {
+					73AEDFD61D03A6DF004A52F2 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					73AEDFEF1D03A6DF004A52F2 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 73AEDFD61D03A6DF004A52F2;
+					};
+					73AEDFFA1D03A6DF004A52F2 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 73AEDFD61D03A6DF004A52F2;
+					};
+				};
+			};
+			buildConfigurationList = 73AEDFD21D03A6DF004A52F2 /* Build configuration list for PBXProject "SkipCenter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 73AEDFCE1D03A6DF004A52F2;
+			productRefGroup = 73AEDFD81D03A6DF004A52F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				73AEDFD61D03A6DF004A52F2 /* SkipCenter */,
+				73AEDFEF1D03A6DF004A52F2 /* SkipCenterTests */,
+				73AEDFFA1D03A6DF004A52F2 /* SkipCenterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		73AEDFD51D03A6DF004A52F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73AEDFEA1D03A6DF004A52F2 /* LaunchScreen.storyboard in Resources */,
+				73AEDFE71D03A6DF004A52F2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73AEDFEE1D03A6DF004A52F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73AEDFF91D03A6DF004A52F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		73AEDFD31D03A6DF004A52F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73AEE0261D03ACB9004A52F2 /* CWSuperViewController.m in Sources */,
+				73AEE01D1D03A9CD004A52F2 /* CWSecondViewController.m in Sources */,
+				73AEE00F1D03A6F4004A52F2 /* SkipCenterTool.m in Sources */,
+				73AEDFDF1D03A6DF004A52F2 /* AppDelegate.m in Sources */,
+				73AEE0171D03A859004A52F2 /* CWListViewController.m in Sources */,
+				73AEE0201D03A9DB004A52F2 /* CWThirdViewController.m in Sources */,
+				73AEDFDC1D03A6DF004A52F2 /* main.m in Sources */,
+				73AEE0231D03A9E7004A52F2 /* CWFourViewController.m in Sources */,
+				73AEE01A1D03A9C2004A52F2 /* CWFirstViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73AEDFEC1D03A6DF004A52F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73AEDFF51D03A6DF004A52F2 /* SkipCenterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73AEDFF71D03A6DF004A52F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73AEE0001D03A6DF004A52F2 /* SkipCenterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		73AEDFF21D03A6DF004A52F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73AEDFD61D03A6DF004A52F2 /* SkipCenter */;
+			targetProxy = 73AEDFF11D03A6DF004A52F2 /* PBXContainerItemProxy */;
+		};
+		73AEDFFD1D03A6DF004A52F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73AEDFD61D03A6DF004A52F2 /* SkipCenter */;
+			targetProxy = 73AEDFFC1D03A6DF004A52F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		73AEDFE81D03A6DF004A52F2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73AEDFE91D03A6DF004A52F2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		73AEE0021D03A6DF004A52F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		73AEE0031D03A6DF004A52F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		73AEE0051D03A6DF004A52F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SkipCenter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.SkipCenter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		73AEE0061D03A6DF004A52F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SkipCenter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.SkipCenter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		73AEE0081D03A6DF004A52F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SkipCenterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.SkipCenterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkipCenter.app/SkipCenter";
+			};
+			name = Debug;
+		};
+		73AEE0091D03A6DF004A52F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SkipCenterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.SkipCenterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkipCenter.app/SkipCenter";
+			};
+			name = Release;
+		};
+		73AEE00B1D03A6DF004A52F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SkipCenterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.SkipCenterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SkipCenter;
+			};
+			name = Debug;
+		};
+		73AEE00C1D03A6DF004A52F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SkipCenterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.SkipCenterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SkipCenter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		73AEDFD21D03A6DF004A52F2 /* Build configuration list for PBXProject "SkipCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73AEE0021D03A6DF004A52F2 /* Debug */,
+				73AEE0031D03A6DF004A52F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73AEE0041D03A6DF004A52F2 /* Build configuration list for PBXNativeTarget "SkipCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73AEE0051D03A6DF004A52F2 /* Debug */,
+				73AEE0061D03A6DF004A52F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		73AEE0071D03A6DF004A52F2 /* Build configuration list for PBXNativeTarget "SkipCenterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73AEE0081D03A6DF004A52F2 /* Debug */,
+				73AEE0091D03A6DF004A52F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		73AEE00A1D03A6DF004A52F2 /* Build configuration list for PBXNativeTarget "SkipCenterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73AEE00B1D03A6DF004A52F2 /* Debug */,
+				73AEE00C1D03A6DF004A52F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 73AEDFCF1D03A6DF004A52F2 /* Project object */;
+}
