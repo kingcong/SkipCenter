@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		736F5B031D057483002212B1 /* CWFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 736F5AF71D057483002212B1 /* CWFirstViewController.m */; };
+		736F5B041D057483002212B1 /* CWFourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 736F5AF91D057483002212B1 /* CWFourViewController.m */; };
+		736F5B051D057483002212B1 /* CWSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 736F5AFB1D057483002212B1 /* CWSecondViewController.m */; };
+		736F5B061D057483002212B1 /* CWSuperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 736F5AFD1D057483002212B1 /* CWSuperViewController.m */; };
+		736F5B071D057483002212B1 /* CWThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 736F5AFF1D057483002212B1 /* CWThirdViewController.m */; };
+		736F5B081D057483002212B1 /* SkipCenterTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 736F5B021D057483002212B1 /* SkipCenterTool.m */; };
 		73AEDFDC1D03A6DF004A52F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 73AEDFDB1D03A6DF004A52F2 /* main.m */; };
 		73AEDFDF1D03A6DF004A52F2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 73AEDFDE1D03A6DF004A52F2 /* AppDelegate.m */; };
 		73AEDFE71D03A6DF004A52F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73AEDFE61D03A6DF004A52F2 /* Assets.xcassets */; };
 		73AEDFEA1D03A6DF004A52F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73AEDFE81D03A6DF004A52F2 /* LaunchScreen.storyboard */; };
 		73AEDFF51D03A6DF004A52F2 /* SkipCenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73AEDFF41D03A6DF004A52F2 /* SkipCenterTests.m */; };
 		73AEE0001D03A6DF004A52F2 /* SkipCenterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73AEDFFF1D03A6DF004A52F2 /* SkipCenterUITests.m */; };
-		73AEE00F1D03A6F4004A52F2 /* SkipCenterTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 73AEE00E1D03A6F4004A52F2 /* SkipCenterTool.m */; };
 		73AEE0171D03A859004A52F2 /* CWListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73AEE0161D03A859004A52F2 /* CWListViewController.m */; };
-		73AEE01A1D03A9C2004A52F2 /* CWFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73AEE0191D03A9C2004A52F2 /* CWFirstViewController.m */; };
-		73AEE01D1D03A9CD004A52F2 /* CWSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73AEE01C1D03A9CD004A52F2 /* CWSecondViewController.m */; };
-		73AEE0201D03A9DB004A52F2 /* CWThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73AEE01F1D03A9DB004A52F2 /* CWThirdViewController.m */; };
-		73AEE0231D03A9E7004A52F2 /* CWFourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73AEE0221D03A9E7004A52F2 /* CWFourViewController.m */; };
-		73AEE0261D03ACB9004A52F2 /* CWSuperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73AEE0251D03ACB9004A52F2 /* CWSuperViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +40,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		736F5AF61D057483002212B1 /* CWFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWFirstViewController.h; sourceTree = "<group>"; };
+		736F5AF71D057483002212B1 /* CWFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWFirstViewController.m; sourceTree = "<group>"; };
+		736F5AF81D057483002212B1 /* CWFourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWFourViewController.h; sourceTree = "<group>"; };
+		736F5AF91D057483002212B1 /* CWFourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWFourViewController.m; sourceTree = "<group>"; };
+		736F5AFA1D057483002212B1 /* CWSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWSecondViewController.h; sourceTree = "<group>"; };
+		736F5AFB1D057483002212B1 /* CWSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWSecondViewController.m; sourceTree = "<group>"; };
+		736F5AFC1D057483002212B1 /* CWSuperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWSuperViewController.h; sourceTree = "<group>"; };
+		736F5AFD1D057483002212B1 /* CWSuperViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWSuperViewController.m; sourceTree = "<group>"; };
+		736F5AFE1D057483002212B1 /* CWThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWThirdViewController.h; sourceTree = "<group>"; };
+		736F5AFF1D057483002212B1 /* CWThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWThirdViewController.m; sourceTree = "<group>"; };
+		736F5B011D057483002212B1 /* SkipCenterTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkipCenterTool.h; sourceTree = "<group>"; };
+		736F5B021D057483002212B1 /* SkipCenterTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkipCenterTool.m; sourceTree = "<group>"; };
 		73AEDFD71D03A6DF004A52F2 /* SkipCenter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkipCenter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73AEDFDB1D03A6DF004A52F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		73AEDFDD1D03A6DF004A52F2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,20 +65,8 @@
 		73AEDFFB1D03A6DF004A52F2 /* SkipCenterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkipCenterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		73AEDFFF1D03A6DF004A52F2 /* SkipCenterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SkipCenterUITests.m; sourceTree = "<group>"; };
 		73AEE0011D03A6DF004A52F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		73AEE00D1D03A6F4004A52F2 /* SkipCenterTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SkipCenterTool.h; path = ../SkipCenterTool.h; sourceTree = "<group>"; };
-		73AEE00E1D03A6F4004A52F2 /* SkipCenterTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SkipCenterTool.m; path = ../SkipCenterTool.m; sourceTree = "<group>"; };
 		73AEE0151D03A859004A52F2 /* CWListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWListViewController.h; sourceTree = "<group>"; };
 		73AEE0161D03A859004A52F2 /* CWListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWListViewController.m; sourceTree = "<group>"; };
-		73AEE0181D03A9C2004A52F2 /* CWFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CWFirstViewController.h; path = ../CWFirstViewController.h; sourceTree = "<group>"; };
-		73AEE0191D03A9C2004A52F2 /* CWFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CWFirstViewController.m; path = ../CWFirstViewController.m; sourceTree = "<group>"; };
-		73AEE01B1D03A9CD004A52F2 /* CWSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CWSecondViewController.h; path = ../CWSecondViewController.h; sourceTree = "<group>"; };
-		73AEE01C1D03A9CD004A52F2 /* CWSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CWSecondViewController.m; path = ../CWSecondViewController.m; sourceTree = "<group>"; };
-		73AEE01E1D03A9DB004A52F2 /* CWThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CWThirdViewController.h; path = ../CWThirdViewController.h; sourceTree = "<group>"; };
-		73AEE01F1D03A9DB004A52F2 /* CWThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CWThirdViewController.m; path = ../CWThirdViewController.m; sourceTree = "<group>"; };
-		73AEE0211D03A9E7004A52F2 /* CWFourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CWFourViewController.h; path = ../CWFourViewController.h; sourceTree = "<group>"; };
-		73AEE0221D03A9E7004A52F2 /* CWFourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CWFourViewController.m; path = ../CWFourViewController.m; sourceTree = "<group>"; };
-		73AEE0241D03ACB9004A52F2 /* CWSuperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CWSuperViewController.h; path = ../CWSuperViewController.h; sourceTree = "<group>"; };
-		73AEE0251D03ACB9004A52F2 /* CWSuperViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CWSuperViewController.m; path = ../CWSuperViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +94,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		736F5AF51D057483002212B1 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				736F5AF61D057483002212B1 /* CWFirstViewController.h */,
+				736F5AF71D057483002212B1 /* CWFirstViewController.m */,
+				736F5AF81D057483002212B1 /* CWFourViewController.h */,
+				736F5AF91D057483002212B1 /* CWFourViewController.m */,
+				736F5AFA1D057483002212B1 /* CWSecondViewController.h */,
+				736F5AFB1D057483002212B1 /* CWSecondViewController.m */,
+				736F5AFC1D057483002212B1 /* CWSuperViewController.h */,
+				736F5AFD1D057483002212B1 /* CWSuperViewController.m */,
+				736F5AFE1D057483002212B1 /* CWThirdViewController.h */,
+				736F5AFF1D057483002212B1 /* CWThirdViewController.m */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		736F5B001D057483002212B1 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				736F5B011D057483002212B1 /* SkipCenterTool.h */,
+				736F5B021D057483002212B1 /* SkipCenterTool.m */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
 		73AEDFCE1D03A6DF004A52F2 = {
 			isa = PBXGroup;
 			children = (
@@ -117,8 +143,8 @@
 		73AEDFD91D03A6DF004A52F2 /* SkipCenter */ = {
 			isa = PBXGroup;
 			children = (
-				73AEE0271D03AE3B004A52F2 /* Example */,
-				73AEE0281D03AE3B004A52F2 /* Lib */,
+				736F5AF51D057483002212B1 /* Example */,
+				736F5B001D057483002212B1 /* Lib */,
 				73AEDFDD1D03A6DF004A52F2 /* AppDelegate.h */,
 				73AEDFDE1D03A6DF004A52F2 /* AppDelegate.m */,
 				73AEE0151D03A859004A52F2 /* CWListViewController.h */,
@@ -155,32 +181,6 @@
 				73AEE0011D03A6DF004A52F2 /* Info.plist */,
 			);
 			path = SkipCenterUITests;
-			sourceTree = "<group>";
-		};
-		73AEE0271D03AE3B004A52F2 /* Example */ = {
-			isa = PBXGroup;
-			children = (
-				73AEE0241D03ACB9004A52F2 /* CWSuperViewController.h */,
-				73AEE0251D03ACB9004A52F2 /* CWSuperViewController.m */,
-				73AEE0181D03A9C2004A52F2 /* CWFirstViewController.h */,
-				73AEE0191D03A9C2004A52F2 /* CWFirstViewController.m */,
-				73AEE01B1D03A9CD004A52F2 /* CWSecondViewController.h */,
-				73AEE01C1D03A9CD004A52F2 /* CWSecondViewController.m */,
-				73AEE01E1D03A9DB004A52F2 /* CWThirdViewController.h */,
-				73AEE01F1D03A9DB004A52F2 /* CWThirdViewController.m */,
-				73AEE0211D03A9E7004A52F2 /* CWFourViewController.h */,
-				73AEE0221D03A9E7004A52F2 /* CWFourViewController.m */,
-			);
-			path = Example;
-			sourceTree = "<group>";
-		};
-		73AEE0281D03AE3B004A52F2 /* Lib */ = {
-			isa = PBXGroup;
-			children = (
-				73AEE00D1D03A6F4004A52F2 /* SkipCenterTool.h */,
-				73AEE00E1D03A6F4004A52F2 /* SkipCenterTool.m */,
-			);
-			path = Lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -312,15 +312,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73AEE0261D03ACB9004A52F2 /* CWSuperViewController.m in Sources */,
-				73AEE01D1D03A9CD004A52F2 /* CWSecondViewController.m in Sources */,
-				73AEE00F1D03A6F4004A52F2 /* SkipCenterTool.m in Sources */,
+				736F5B051D057483002212B1 /* CWSecondViewController.m in Sources */,
+				736F5B041D057483002212B1 /* CWFourViewController.m in Sources */,
+				736F5B081D057483002212B1 /* SkipCenterTool.m in Sources */,
+				736F5B061D057483002212B1 /* CWSuperViewController.m in Sources */,
 				73AEDFDF1D03A6DF004A52F2 /* AppDelegate.m in Sources */,
 				73AEE0171D03A859004A52F2 /* CWListViewController.m in Sources */,
-				73AEE0201D03A9DB004A52F2 /* CWThirdViewController.m in Sources */,
 				73AEDFDC1D03A6DF004A52F2 /* main.m in Sources */,
-				73AEE0231D03A9E7004A52F2 /* CWFourViewController.m in Sources */,
-				73AEE01A1D03A9C2004A52F2 /* CWFirstViewController.m in Sources */,
+				736F5B071D057483002212B1 /* CWThirdViewController.m in Sources */,
+				736F5B031D057483002212B1 /* CWFirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -536,6 +536,7 @@
 				73AEE0061D03A6DF004A52F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		73AEE0071D03A6DF004A52F2 /* Build configuration list for PBXNativeTarget "SkipCenterTests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +545,7 @@
 				73AEE0091D03A6DF004A52F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		73AEE00A1D03A6DF004A52F2 /* Build configuration list for PBXNativeTarget "SkipCenterUITests" */ = {
 			isa = XCConfigurationList;
@@ -552,6 +554,7 @@
 				73AEE00C1D03A6DF004A52F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

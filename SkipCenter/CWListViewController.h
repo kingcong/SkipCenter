@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CWListViewController : UITableViewController
+@interface CWListViewController : UIViewController
 
 @end
